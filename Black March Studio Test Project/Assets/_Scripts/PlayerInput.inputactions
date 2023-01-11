@@ -1,0 +1,34 @@
+{
+    "name": "PlayerInput",
+    "maps": [
+        {
+            "name": "MouseInput",
+            "id": "b0771918-d94e-4b39-be7d-f9de4c92b3a6",
+            "actions": [
+                {
+                    "name": "RightMB",
+                    "type": "Button",
+                    "id": "dcd9683d-b787-4161-8773-36423c2f78e8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1f12f18d-6379-4a1d-8456-8523bfa703c7",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightMB",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
