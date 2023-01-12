@@ -27,6 +27,15 @@ public class CustomInspector : Editor
             WorldGridStatus.X = targetScript.gridData.width;
             WorldGridStatus.Y = targetScript.gridData.length;
 
+            if (targetScript.columns==null || targetScript.columns.Length!=targetScript.gridData.width)
+            {
+                targetScript.columns=new WorldGridStatus.Column[targetScript.gridData.width];
+                foreach(WorldGridStatus.Column col in targetScript.columns)
+                {
+                    col.rows=new bool[targetScript.gridData.length];
+                }
+            }
+
             EditorGUILayout.BeginHorizontal();
             for (int y = 0; y < WorldGridStatus.Y; y++)
             {

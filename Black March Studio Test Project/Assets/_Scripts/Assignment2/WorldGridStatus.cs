@@ -12,22 +12,12 @@ public class WorldGridStatus : MonoBehaviour
     [System.Serializable]
     public class Column
     {
-        private bool[] row = new bool[Y];
-        public bool[] rows
-        {
-            get
-            {
-                return row;
-            }
-            set
-            {
-                Debug.Log("Changes Made");
-                row = value;
-            }
-        }
+        public bool[] rows = new bool[Y];
     }
 
     public Column[] columns = new Column[X];
+
+    public bool[][] trybool;
 
     public void OnColumnChanged()
     {

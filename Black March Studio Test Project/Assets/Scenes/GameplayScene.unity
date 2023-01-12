@@ -1304,7 +1304,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gridData: {fileID: 11400000, guid: 4ef0a43df21308a41bd6a2fc6baf2080, type: 2}
   gridStatus: {fileID: 11400000, guid: 83aa43aff3db1ac43bd27505c3a84107, type: 2}
-  columns: []
+  columns:
+  - rows: 00010000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 00010000000000000000
+  - rows: 00000100000000000000
+  - rows: 00000100000000000000
+  - rows: 00000000000000000000
 --- !u!4 &1263419098
 Transform:
   m_ObjectHideFlags: 0

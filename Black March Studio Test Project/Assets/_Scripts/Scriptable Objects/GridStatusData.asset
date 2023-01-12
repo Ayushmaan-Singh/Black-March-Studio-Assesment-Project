@@ -12,4 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 839b097ee57808d4b938dea1eebcf070, type: 3}
   m_Name: GridStatusData
   m_EditorClassIdentifier: 
-  gridLayout: []
+  gridLayout:
+  - rows: 00010000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 01000000000000000000
+  - rows: 00010000000000000000
+  - rows: 00000100000000000000
+  - rows: 00000100000000000000
+  - rows: 00000000000000000000
